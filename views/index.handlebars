@@ -18,7 +18,7 @@
         {{#each burger}}
           {{#unless this.devoured}}
             <div id="notDevoured">
-              <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
+              <span><strong> {{this.id}}: {{this.burger_name}} </strong></span>
                <button type="button" class="eatburger btn btn-success" id="eatbutton" data-id="{{this.id}}"
                data-newDevoured="{{devour}}">Devour It!</button>
                <br>

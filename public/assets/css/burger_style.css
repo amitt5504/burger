@@ -8,6 +8,7 @@
 
 #jumbo {
   text-align: center;
+  background-color: wheat;
 }
 
 #eatbutton {
@@ -21,5 +22,5 @@
 
 #notDevoured {
   text-align: left;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
